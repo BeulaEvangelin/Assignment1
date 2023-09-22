@@ -24,3 +24,8 @@ let hospital = {
     }
 ]
 }
+console.log(hospital.hospitalName);
+for(let i=0; i<hospital.patients.length; i++){
+    console.log(hospital.patients[i].fullName);
+    console.log(hospital.patients[i].dateOfBirth);
+}
