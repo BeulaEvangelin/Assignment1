@@ -17,7 +17,7 @@ let hospital = {
    
     {
         id:"003",
-        fullName:"<h2>Robin Adams,",
+        fullName:"<h2>Robin Adams, ",
         dateOfBirth:"12-06-2015</h2>",
         symptoms:["<li>Fever</li>", "<li>Vomiting</li>", "<li>Stomach pain</li>"]
 
