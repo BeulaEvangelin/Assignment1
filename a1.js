@@ -25,6 +25,12 @@ let hospital = {
 ]
 }
 console.log(hospital.hospitalName);
+function showPatients(){
 for(let i=0; i<hospital.patients.length; i++){
     console.log(hospital.patients[i].fullName + hospital.patients[i].dateOfBirth);
+    console.log(hospital.patients[i].symptoms[0]);
+        console.log(hospital.patients[i].symptoms[1]);
+        console.log(hospital.patients[i].symptoms[2]);
 }
+}
+showPatients();
