@@ -34,3 +34,11 @@ for(let i=0; i<hospital.patients.length; i++){
 }
 }
 showPatients();
+
+function getPatients(pts){
+    let randomNumber = Math.floor(Math.random()*4);
+    let pt = pts[randomNumber];
+    return pt.id;
+  }
+    console.log(); 
+    getPatients(hospital.patients);
